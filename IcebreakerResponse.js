@@ -3,6 +3,7 @@ function IcebreakerResponse(email){
   this.email = email
 }
 IcebreakerResponse.BatchCreate=function(arrEmails){
-    return new IcebreakerResponse(arrEmails[0]);
+  for(let i=0;i<arrEmails.length;i++)
+    return new IcebreakerResponse(arrEmails[i]);
 }
 }
