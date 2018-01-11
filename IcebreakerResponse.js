@@ -7,3 +7,4 @@ IcebreakerResponse.BatchCreate=function(arrEmails){
     return new IcebreakerResponse(email);
 });
 }
+}
